@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="asteroids.css">
+<html lang="en">
+
+
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Figures 2D</title>
+  </head>
+
+  <h1>AsteroideS</h1>
+  <h2>Sergio de la Fuente</h2>
+
+  <div id = "clocklevel">
+    <div id="clock"></div>
+    <div id="level"></div>
+  </div>
+
+  <script src="asteroids.js"></script>
+  <div id="game">
+
+    <body onload= "main()">
+      <canvas id="canvas" width="800" height="600">
+
+        Please use a browser that supports "canvas"
+      </canvas>
+
+  </div>
+
+    <div id = "Gameover"></div>
+    <div id = "score"></div>
+
+    <div id = "lifes"></div>
+    <div id = "butt">
+      <button type="button" id ="button1" onclick="window.location.href = window.location.href">Juego nuevo</button>
+    </div>
+    <div id="explicar">Shoot: Barra espaciadora</div>
+
+  </body>
+
+</html>
